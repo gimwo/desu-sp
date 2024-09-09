@@ -93,6 +93,13 @@ function Contact({ object, setContainer, container }) {
       id="container"
       className="absolute bottom-0 z-10 right-5 contact-slide"
     >
+<h2
+  className="text-white border-b-inherit pl-8 pt-10 underline decoration-white"
+  onClick={handleClick}
+>
+  Go back
+</h2>
+
       <div
         className="console-container-fix"
         style={{

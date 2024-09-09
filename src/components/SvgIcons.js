@@ -15,12 +15,12 @@ export default function SVGIcons() {
       <Link to="https://mail.google.com/">
         <EmailIcon color={color.color} />
       </Link>
-      <Link to="https://www.linkedin.com/">
+      {/* <Link to="https://www.linkedin.com/">
         <LinkedInIcon color={color.color} />
       </Link>
       <Link to="https://www.instagram.com/?hl=en">
         <InstagramIcon color={color.color} />
-      </Link>
+      </Link> */}
     </div>
   );
 }
