@@ -64,7 +64,7 @@ export default function MenuPage() {
         >
           Projects
         </p>
-        <p className="menu-link rajdhani-medium-menu">Blog</p>
+        {/* <p className="menu-link rajdhani-medium-menu">Blog</p> */}
         <p
           className="menu-link rajdhani-medium-menu"
           onClick={handleContactClick}
