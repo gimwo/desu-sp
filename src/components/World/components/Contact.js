@@ -3,8 +3,44 @@ import { useGSAP } from "@gsap/react";
 import { useContext, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import ColorContext from "../../../context/ColorContext";
+import Swal from 'sweetalert2'
 
 function Contact({ object, setContainer, container }) {
+
+    //EMAIL
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+  
+      formData.append("access_key", "20dcb6f1-2d4f-42ba-824b-538a1a331652");
+  
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+  
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      }).then((res) => res.json());
+  
+      if (res.success) {
+        Swal.fire({
+          title: "Email sent!",
+          text: "We'll get back to you on 3-5 working days",
+          icon: "success"
+        });
+      }
+    };
+
+    
+
+
+
+
+
   function useConsoleText(words, colors, id) {
     const elRef = useRef(null);
     const cursorRef = useRef(null);
@@ -123,7 +159,7 @@ function Contact({ object, setContainer, container }) {
               soon as possible.
             </p>
           </div>
-          <form className="contact-form w-1/2">
+          <form onSubmit={onSubmit} className="contact-form w-1/2">
             <div className="form-group-fix">
               <input
                 className="rajdhani-medium-contact form-text-fix"
@@ -131,6 +167,7 @@ function Contact({ object, setContainer, container }) {
                 id="name"
                 name="name"
                 placeholder="Name*"
+                required
               />
             </div>
             <div className="form-group-fix">
@@ -140,6 +177,7 @@ function Contact({ object, setContainer, container }) {
                 id="email"
                 name="email"
                 placeholder="Email*"
+                required
               />
             </div>
             <div className="form-group-fix">
@@ -149,6 +187,7 @@ function Contact({ object, setContainer, container }) {
                 id="phone"
                 name="phone"
                 placeholder="Phone Number*"
+                required
               />
             </div>
             <div className="form-group-fix">
@@ -158,6 +197,7 @@ function Contact({ object, setContainer, container }) {
                 id="concern"
                 name="concern"
                 placeholder="Concern*"
+                required
               />
             </div>
             <div className="form-group-fix additional-text-row rajdhani-medium-contact mt-1">

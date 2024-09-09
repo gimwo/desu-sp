@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useContext } from "react";
 import MenuIcon from "../components/MenuIcon";
 import { useNavigate } from "react-router-dom";
 import ColorContext from "../context/ColorContext";
+import Swal from 'sweetalert2'
 
 function useConsoleText(words, colors, id) {
   const elRef = useRef(null);
@@ -80,6 +81,42 @@ export default function ContactPage() {
     navigate("/product");
   };
 
+
+
+
+  //EMAIL
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "20dcb6f1-2d4f-42ba-824b-538a1a331652");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Email sent!",
+        text: "We'll get back to you on 3-5 working days",
+        icon: "success"
+      });
+    }
+  };
+
+
+
+
+
+
   return (
     <div className="contact-bg">
       <MenuIcon />
@@ -115,7 +152,7 @@ export default function ContactPage() {
           </div>
 
           {/* Right Column - Form */}
-          <form className="contact-form">
+          <form onSubmit={onSubmit} className="contact-form">
             <div className="form-group">
               <input
                 className="rajdhani-medium-contact form-text"
@@ -123,6 +160,7 @@ export default function ContactPage() {
                 id="name"
                 name="name"
                 placeholder="Name*"
+                required
               />
             </div>
             <div className="form-group">
@@ -132,6 +170,7 @@ export default function ContactPage() {
                 id="email"
                 name="email"
                 placeholder="Email*"
+                required
               />
             </div>
             <div className="form-group">
@@ -141,6 +180,7 @@ export default function ContactPage() {
                 id="phone"
                 name="phone"
                 placeholder="Phone Number*"
+                required
               />
             </div>
             <div className="form-group">
