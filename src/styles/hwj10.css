@@ -1,0 +1,117 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO POWER PLANTS */
+  .glitch-static-hpp10 {
+    background: url('../assets/images/hydro/hwj10/hpp101.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hpp10 {
+    animation: glitch-hpp10 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hpp10 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj10/hpp102.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj10/hpp103.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj10/hpp104.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj10/hpp105.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  /* HYDRO GAS TANKS */
+  .glitch-static-hgt10 {
+    background: url('../assets/images/hydro/hwj10/hgt101.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hgt10 {
+    animation: glitch-hgt10 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hgt10 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj10/hgt102.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj10/hgt103.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj10/hgt104.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj10/hgt105.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+    /* HYDRO OIL TANKS */
+    .glitch-static-hot10 {
+        background: url('../assets/images/hydro/hwj10/hot101.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hot10 {
+        animation: glitch-hot10 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hot10 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj10/hot102.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj10/hot103.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj10/hot104.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj10/hot105.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+    

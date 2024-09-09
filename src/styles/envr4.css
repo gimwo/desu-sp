@@ -1,0 +1,49 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | OFFSHORE APPLICATION */
+  .glitch-static-eiws4 {
+    background: url('../assets/images/environmental/envr4/eiws41.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-eiws4 {
+    animation: glitch-eiws4 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-eiws4 {
+    10%, 100% {
+      background: url('../assets/images/environmental/envr4/eiws42.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/environmental/envr4/eiws43.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/environmental/envr4/eiws44.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/environmental/envr4/eiws45.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+   

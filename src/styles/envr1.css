@@ -1,0 +1,49 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | FLOATING RROF TANK */
+  .glitch-static-efrt1 {
+    background: url('../assets/images/environmental/envr1/efrt11.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-efrt1 {
+    animation: glitch-efrt1 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-efrt1 {
+    10%, 100% {
+      background: url('../assets/images/environmental/envr1/efrt12.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/environmental/envr1/efrt13.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/environmental/envr1/efrt14.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/environmental/envr1/efrt15.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+   

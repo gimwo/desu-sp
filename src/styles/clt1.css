@@ -1,0 +1,84 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | INDUSTRIAL FACILITY */
+  .glitch-static-cif1 {
+    background: url('../assets/images/cleaning/ct1/cif11.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-cif1 {
+    animation: glitch-cif1 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-cif1 {
+    10%, 100% {
+      background: url('../assets/images/cleaning/ct1/cif12.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/cleaning/ct1/cif13.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/cleaning/ct1/cif14.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/cleaning/ct1/cif15.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+    /* CLEANING | FACTORIES */
+    .glitch-static-cf1 {
+      background: url('../assets/images/cleaning/ct1/cf11.png') no-repeat center center;
+      background-size: contain;
+    }
+  
+    .glitch-active-cf1 {
+      animation: glitch-cf1 1.5s infinite steps(1);
+    }
+    
+    @keyframes glitch-cf1 {
+      10%, 100% {
+        background: url('../assets/images/cleaning/ct1/cf12.png') no-repeat center center;
+        background-size: contain;
+      }
+      25% {
+        background: url('../assets/images/cleaning/ct1/cf13.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      50% {
+        background: url('../assets/images/cleaning/ct1/cf14.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      99% {
+        background: url('../assets/images/cleaning/ct1/cf15.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+    }
+
+
+
+
+  

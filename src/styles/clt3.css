@@ -1,0 +1,49 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | BUILDINGS */
+  .glitch-static-cb3 {
+    background: url('../assets/images/cleaning/ct3/cb31.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-cb3 {
+    animation: glitch-cb3 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-cb3 {
+    10%, 100% {
+      background: url('../assets/images/cleaning/ct3/cb32.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/cleaning/ct3/cb33.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/cleaning/ct3/cb34.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/cleaning/ct3/cb35.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+   

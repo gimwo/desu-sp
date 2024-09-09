@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="1" height="4630" viewBox="0 0 1 4630">
+  <g id="Layer_3" data-name="Layer 3">
+    <g>
+      <line x1=".5" y1="4630" x2=".5" y2="4625" fill="none" stroke="#fff" stroke-miterlimit="10"/>
+      <line x1=".5" y1="4615.022" x2=".5" y2="9.989" fill="none" stroke="#fff" stroke-dasharray="0 0 9.978 9.978" stroke-miterlimit="10"/>
+      <line x1=".5" y1="5" x2=".5" fill="none" stroke="#fff" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>

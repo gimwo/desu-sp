@@ -1,0 +1,117 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | HOSPITAL */
+  .glitch-static-chpt2 {
+    background: url('../assets/images/cleaning/ct2/chpt21.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-chpt2 {
+    animation: glitch-chpt2 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-chpt2 {
+    10%, 100% {
+      background: url('../assets/images/cleaning/ct2/chpt22.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/cleaning/ct2/chpt23.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/cleaning/ct2/chpt24.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/cleaning/ct2/chpt25.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+    /* CLEANING | SUPERMARKET */
+    .glitch-static-csm2 {
+      background: url('../assets/images/cleaning/ct2/csm21.png') no-repeat center center;
+      background-size: contain;
+    }
+  
+    .glitch-active-csm2 {
+      animation: glitch-csm2 1.5s infinite steps(1);
+    }
+    
+    @keyframes glitch-csm2 {
+      10%, 100% {
+        background: url('../assets/images/cleaning/ct2/csm22.png') no-repeat center center;
+        background-size: contain;
+      }
+      25% {
+        background: url('../assets/images/cleaning/ct2/csm23.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      50% {
+        background: url('../assets/images/cleaning/ct2/csm24.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      99% {
+        background: url('../assets/images/cleaning/ct2/csm25.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+    }
+
+    
+
+        /* CLEANING | HOTEL */
+        .glitch-static-cht2 {
+            background: url('../assets/images/cleaning/ct2/cht21.png') no-repeat center center;
+            background-size: contain;
+          }
+        
+          .glitch-active-cht2 {
+            animation: glitch-cht2 1.5s infinite steps(1);
+          }
+          
+          @keyframes glitch-cht2 {
+            10%, 100% {
+              background: url('../assets/images/cleaning/ct2/cht22.png') no-repeat center center;
+              background-size: contain;
+            }
+            25% {
+              background: url('../assets/images/cleaning/ct2/cht23.png') no-repeat center center;
+              background-size: contain;
+              opacity: 1;
+            }
+            50% {
+              background: url('../assets/images/cleaning/ct2/cht24.png') no-repeat center center;
+              background-size: contain;
+              opacity: 1;
+            }
+            99% {
+              background: url('../assets/images/cleaning/ct2/cht25.png') no-repeat center center;
+              background-size: contain;
+              opacity: 1;
+            }
+          }
+      
+
+
+  

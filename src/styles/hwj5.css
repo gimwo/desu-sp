@@ -1,0 +1,77 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO STORAGE TANKS */
+  .glitch-static-hst5 {
+    background: url('../assets/images/hydro/hwj5/hst51.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hst5 {
+    animation: glitch-hst5 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hst5 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj5/hst52.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj5/hst53.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj5/hst54.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj5/hst55.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  /* HYDRO CARGO OIL TANKS */
+  .glitch-static-hcot5 {
+    background: url('../assets/images/hydro/hwj5/hcot51.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hcot5 {
+    animation: glitch-hcot5 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hcot5 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj5/hcot52.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj5/hcot53.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj5/hcot54.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj5/hcot55.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }

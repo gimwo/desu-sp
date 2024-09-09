@@ -1,0 +1,49 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | OFFSHORE APPLICATION */
+  .glitch-static-ep5 {
+    background: url('../assets/images/environmental/envr5/ep51.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-ep5 {
+    animation: glitch-ep5 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-ep5 {
+    10%, 100% {
+      background: url('../assets/images/environmental/envr5/ep52.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/environmental/envr5/ep53.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/environmental/envr5/ep54.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/environmental/envr5/ep55.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+   

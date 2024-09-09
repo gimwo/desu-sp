@@ -1,0 +1,47 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO TUBE HEAT EXCHANGERS */
+  .glitch-static-hthe {
+    background: url('../assets/images/hydro/hwj6/hthe1.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hthe {
+    animation: glitch-hthe 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hthe {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj6/hthe2.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj6/hthe3.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj6/hthe4.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj6/hthe5.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  

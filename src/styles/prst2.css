@@ -1,0 +1,50 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -700px;
+    margin-bottom: 90px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* HYDRO TUBE HEAT EXCHANGERS */
+  .glitch-static-phe2 {
+    background: url('../assets/images/pressure/prst2/phe21.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-phe2 {
+    animation: glitch-phe2 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-phe2 {
+    10%, 100% {
+      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/pressure/prst2/phe23.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/pressure/prst2/phe24.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/pressure/prst2/phe25.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  

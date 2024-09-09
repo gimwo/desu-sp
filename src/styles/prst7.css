@@ -1,0 +1,113 @@
+
+.glitch7 {
+  /* width: 900px; */
+  height: 700px;
+  margin-left: 10px;
+  margin-top: -800px;
+  margin-bottom: 90px;
+  /* position: relative; */
+  z-index: -2;
+}
+
+
+  /* PRESSURE SHIPYARDS */
+  .glitch-static-psy7 {
+    background: url('../assets/images/pressure/prst7/psy71.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-psy7 {
+    animation: glitch-psy7 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-psy7 {
+    10%, 100% {
+      background: url('../assets/images/pressure/prst7/psy72.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/pressure/prst7/psy73.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/pressure/prst7/psy74.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/pressure/prst7/psy75.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+   /* PRESSURE OIL REFINERIES */
+   .glitch-static-por7 {
+    background: url('../assets/images/pressure/prst7/por71.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-por7 {
+    animation: glitch-por7 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-por7 {
+    10%, 100% {
+      background: url('../assets/images/pressure/prst7/por72.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/pressure/prst7/por73.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/pressure/prst7/por74.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/pressure/prst7/por75.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+   /* PRESSURE STEEL FACTORIES */
+   .glitch-static-psf7 {
+    background: url('../assets/images/pressure/prst7/psf71.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-psf7 {
+    animation: glitch-psf7 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-psf7 {
+    10%, 100% {
+      background: url('../assets/images/pressure/prst7/psf72.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/pressure/prst7/psf73.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/pressure/prst7/psf74.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/pressure/prst7/psf75.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+  

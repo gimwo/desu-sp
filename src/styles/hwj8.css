@@ -1,0 +1,47 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO SEWER PIPES */
+  .glitch-static-hsp8 {
+    background: url('../assets/images/hydro/hwj8/hsp81.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hsp8 {
+    animation: glitch-hsp8 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hsp8 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj8/hsp82.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj8/hsp83.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj8/hsp84.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj8/hsp85.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  

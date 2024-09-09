@@ -1,0 +1,339 @@
+  /* body{
+    background-color: transparent;
+  } */
+  
+  .glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO WJ2 ROAD */
+  .glitch-static-hr2 {
+    background: url('../assets/images/hydro/hwj2/hr21.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hr2 {
+    animation: glitch-hr2 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hr2 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj2/hr22.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj2/hr23.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj2/hr24.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj2/hr25.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+  /* HYDRO WJ2 BRIDGE */
+  .glitch-static-hb2 {
+    background: url('../assets/images/hydro/hwj2/hb21.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hb2 {
+    animation: glitch-hb2 1s infinite steps(1);
+  }
+
+  @keyframes glitch-hb2 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj2/hb22.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj2/hb23.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj2/hb24.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj2/hb25.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+ 
+
+
+
+    /* HYDRO WJ2 RUNWAYS */
+    .glitch-static-hrw2 {
+        background: url('../assets/images/hydro/hwj2/hrw21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hrw2 {
+        animation: glitch-hrw2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hrw2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hrw22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hrw23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hrw24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hrw25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO WJ2 PORTS*/
+    .glitch-static-hp2 {
+        background: url('../assets/images/hydro/hwj2/hp21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hp2 {
+        animation: glitch-hp2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hp2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hp22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hp23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hp24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hp25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO WJ2 QUAYS */
+    .glitch-static-hq2 {
+        background: url('../assets/images/hydro/hwj2/hq21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hq2 {
+        animation: glitch-hq2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hq2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hq22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hq23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hq24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hq25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO WJ2 PARKING DECKS */
+    .glitch-static-hpd2 {
+        background: url('../assets/images/hydro/hwj2/hpd21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hpd2 {
+        animation: glitch-hpd2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hpd2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hpd22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hpd23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hpd24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hpd25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO WJ2 DAMS */
+    .glitch-static-hd2 {
+        background: url('../assets/images/hydro/hwj2/hd21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hd2 {
+        animation: glitch-hd2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hd2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hd22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hd23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hd24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hd25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+
+       /* HYDRO WJ2 PILLARS */
+    .glitch-static-hpl2 {
+        background: url('../assets/images/hydro/hwj2/hpl21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hpl2 {
+        animation: glitch-hpl2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hpl2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/hpl22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/hpl23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/hpl24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/hpl25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+       /* HYDRO WJ2 TUNNELS */
+    .glitch-static-ht2 {
+        background: url('../assets/images/hydro/hwj2/ht21.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-ht2 {
+        animation: glitch-ht2 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-ht2 {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj2/ht22.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj2/ht23.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj2/ht24.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj2/ht25.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+/* 
+      .sub-heading {
+        color: #32CBBB;
+        font-size: 33px !important; 
+        margin-left: 95px;
+        transform: translateY(-30px);
+        margin-top: -95px;
+
+      }
+
+      .main-heading {
+        color: #fff; 
+        font-size: 86px;
+        margin-left: 90px;
+        letter-spacing: 10px;
+        transform: translateY(-30px);
+      } */
+
+
+
+      
+      
+

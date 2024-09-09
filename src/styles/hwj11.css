@@ -1,0 +1,47 @@
+.glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO STORAGE TANKS  */
+  .glitch-static-hpt11 {
+    background: url('../assets/images/hydro/hwj11/hpt1.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hpt11 {
+    animation: glitch-hpt11 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hpt11 {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj11/hpt2.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj11/hpt3.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj11/hpt4.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj11/hpt5.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  

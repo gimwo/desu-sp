@@ -1,0 +1,49 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | ECHO BARRIERS */
+  .glitch-static-eeb2 {
+    background: url('../assets/images/environmental/envr2/eeb21.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-eeb2 {
+    animation: glitch-eeb2 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-eeb2 {
+    10%, 100% {
+      background: url('../assets/images/environmental/envr2/eeb22.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/environmental/envr2/eeb23.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/environmental/envr2/eeb24.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/environmental/envr2/eeb25.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+   

@@ -1,0 +1,84 @@
+.glitch-ct1 {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 0px;
+    margin-top: -620px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    z-index: -2;
+  }
+  
+
+
+  /* CLEANING | STREETS */
+  .glitch-static-cst4 {
+    background: url('../assets/images/cleaning/ct4/cst41.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-cst4 {
+    animation: glitch-cst4 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-cst4 {
+    10%, 100% {
+      background: url('../assets/images/cleaning/ct4/cst42.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/cleaning/ct4/cst43.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/cleaning/ct4/cst44.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/cleaning/ct4/cst45.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+    /* CLEANING | SIDEWALKS */
+    .glitch-static-csw4 {
+      background: url('../assets/images/cleaning/ct4/csw41.png') no-repeat center center;
+      background-size: contain;
+    }
+  
+    .glitch-active-csw4 {
+      animation: glitch-csw4 1.5s infinite steps(1);
+    }
+    
+    @keyframes glitch-csw4 {
+      10%, 100% {
+        background: url('../assets/images/cleaning/ct4/csw42.png') no-repeat center center;
+        background-size: contain;
+      }
+      25% {
+        background: url('../assets/images/cleaning/ct4/csw43.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      50% {
+        background: url('../assets/images/cleaning/ct4/csw44.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+      99% {
+        background: url('../assets/images/cleaning/ct4/csw45.png') no-repeat center center;
+        background-size: contain;
+        opacity: 1;
+      }
+    }
+
+
+
+
+  

@@ -1,0 +1,339 @@
+  /* body{
+    background-color: transparent;
+  } */
+  
+  .glitch {
+    /* width: 900px; */
+    height: 700px;
+    margin-left: 10px;
+    margin-top: -600px;
+  }
+  
+
+
+  /* HYDRO ROAD */
+  .glitch-static-hroad {
+    background: url('../assets/images/hydro/hwj1/hroad1.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hroad {
+    animation: glitch-hroad 1.5s infinite steps(1);
+  }
+  
+  @keyframes glitch-hroad {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj1/hroad2.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj1/hroad3.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj1/hroad4.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj1/hroad5.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+  /* HYDRO BRIDGE */
+  .glitch-static-hbridge {
+    background: url('../assets/images/hydro/hwj1/hbridge1.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .glitch-active-hbridge {
+    animation: glitch-hbridge 1s infinite steps(1);
+  }
+
+  @keyframes glitch-hbridge {
+    10%, 100% {
+      background: url('../assets/images/hydro/hwj1/hbridge2.png') no-repeat center center;
+      background-size: contain;
+    }
+    25% {
+      background: url('../assets/images/hydro/hwj1/hbridge3.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    50% {
+      background: url('../assets/images/hydro/hwj1/hbridge4.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+    99% {
+      background: url('../assets/images/hydro/hwj1/hbridge5.png') no-repeat center center;
+      background-size: contain;
+      opacity: 1;
+    }
+  }
+ 
+
+
+
+    /* HYDRO RUNWAYS */
+    .glitch-static-hrunway {
+        background: url('../assets/images/hydro/hwj1/hrunway1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hrunway {
+        animation: glitch-hrunway 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hrunway {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hrunway2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hrunway3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hrunway4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hrunway5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO PORTS*/
+    .glitch-static-hport {
+        background: url('../assets/images/hydro/hwj1/hport1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hport {
+        animation: glitch-hport 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hport {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hport2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hport3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hport4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hport5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO QUAYS */
+    .glitch-static-hquay {
+        background: url('../assets/images/hydro/hwj1/hquay1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hquay {
+        animation: glitch-hquay 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hquay {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hquay2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hquay3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hquay4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hquay5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO PARKING DECKS */
+    .glitch-static-hpdecks {
+        background: url('../assets/images/hydro/hwj1/hpdecks1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hpdecks {
+        animation: glitch-hpdecks 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hpdecks {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hpdecks2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hpdecks3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hpdecks4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hpdecks5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+      /* HYDRO DAMS */
+    .glitch-static-hdam {
+        background: url('../assets/images/hydro/hwj1/hdam1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hdam {
+        animation: glitch-hdam 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hdam {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hdam2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hdam3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hdam4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hdam5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+
+       /* HYDRO PILLARS */
+    .glitch-static-hpillar {
+        background: url('../assets/images/hydro/hwj1/hpillar1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-hpillar {
+        animation: glitch-hpillar 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-hpillar {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/hpillar2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/hpillar3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/hpillar4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/hpillar5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+       /* HYDRO TUNNELS */
+    .glitch-static-htunnel {
+        background: url('../assets/images/hydro/hwj1/htunnel1.png') no-repeat center center;
+        background-size: contain;
+      }
+    
+      .glitch-active-htunnel {
+        animation: glitch-htunnel 1.5s infinite steps(1);
+      }
+      
+      @keyframes glitch-htunnel {
+        10%, 100% {
+          background: url('../assets/images/hydro/hwj1/htunnel2.png') no-repeat center center;
+          background-size: contain;
+        }
+        25% {
+          background: url('../assets/images/hydro/hwj1/htunnel3.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        50% {
+          background: url('../assets/images/hydro/hwj1/htunnel4.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+        99% {
+          background: url('../assets/images/hydro/hwj1/htunnel5.png') no-repeat center center;
+          background-size: contain;
+          opacity: 1;
+        }
+      }
+
+
+
+      .sub-heading {
+        color: #32CBBB;
+        font-size: 33px !important; 
+        margin-left: 95px;
+        transform: translateY(-30px);
+        margin-top: -95px;
+
+      }
+
+      .main-heading {
+        color: #fff; 
+        font-size: 86px;
+        margin-left: 90px;
+        letter-spacing: 10px;
+        transform: translateY(-30px);
+      }
+
+
+
+      
+      
+
