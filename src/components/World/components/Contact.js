@@ -3,43 +3,36 @@ import { useGSAP } from "@gsap/react";
 import { useContext, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import ColorContext from "../../../context/ColorContext";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 function Contact({ object, setContainer, container }) {
+  //EMAIL
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
 
-    //EMAIL
-    const onSubmit = async (event) => {
-      event.preventDefault();
-      const formData = new FormData(event.target);
-  
-      formData.append("access_key", "20dcb6f1-2d4f-42ba-824b-538a1a331652");
-  
-      const object = Object.fromEntries(formData);
-      const json = JSON.stringify(object);
-  
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: json
-      }).then((res) => res.json());
-  
-      if (res.success) {
-        Swal.fire({
-          title: "Email sent!",
-          text: "We'll get back to you on 3-5 working days",
-          icon: "success"
-        });
-      }
-    };
+    formData.append("access_key", "20dcb6f1-2d4f-42ba-824b-538a1a331652");
 
-    
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
 
-
-
+    if (res.success) {
+      Swal.fire({
+        title: "Email sent!",
+        text: "We'll get back to you on 3-5 working days",
+        icon: "success",
+      });
+    }
+  };
 
   function useConsoleText(words, colors, id) {
     const elRef = useRef(null);
@@ -115,8 +108,8 @@ function Contact({ object, setContainer, container }) {
   useGSAP(() => {
     gsap.fromTo(
       "#container",
-      { translateY: 300, opacity: 0 },
-      { translateY: 0, opacity: 1, duration: 1, ease: "power2.inOut" }
+      { translateY: 500, opacity: 0 },
+      { translateY: -100, opacity: 1, duration: 1, ease: "power2.inOut" }
     );
   });
   // useEffect(() => {
@@ -129,12 +122,12 @@ function Contact({ object, setContainer, container }) {
       id="container"
       className="absolute bottom-0 z-10 right-5 contact-slide"
     >
-<h2
-  className="text-white border-b-inherit pl-8 pt-10 underline decoration-white"
-  onClick={handleClick}
->
-  Go back
-</h2>
+      <h2
+        className="text-white border-b go-back-btn-white mb-4 inline-block mt-5 ml-5"
+        onClick={handleClick}
+      >
+        Go back
+      </h2>
 
       <div
         className="console-container-fix"

@@ -134,6 +134,20 @@ body {
 .go-back-btn-green:hover {
   cursor: pointer;
 }
+.go-back-btn-green {
+  border-bottom: 0.5px dotted green;
+}
+
+.go-back-btn-green:hover {
+  cursor: pointer;
+}
+.go-back-btn-white {
+  border-bottom: 0.5px dotted white;
+}
+
+.go-back-btn-white:hover {
+  cursor: pointer;
+}
 
 .go-back-btn-blue {
   border-bottom: 0.5px dotted cyan;
